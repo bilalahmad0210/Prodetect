@@ -1,47 +1,32 @@
 
-# 🧠 ProDetect: Real-Time Smart Object Detection & Tracking
+#  ProDetect: Real-Time Smart Object Detection & Tracking
 
-A professional-grade, modular object detection system built using YOLOv8, designed for real-time performance, zone-based alerts, and clean code structure — ready to flaunt on your GitHub or portfolio!
-
----
-
-## 🚀 Features
-
-- ✅ Real-time object detection (Webcam or Video)
-- 🎯 Zone-based alerts for restricted areas
-- 🧠 Modular architecture (easy to extend & maintain)
-- 📸 Save detections & log alerts to CSV
-- ⚡ Optimized for GPU (GTX 1650 Ti or better)
-- 🧱 YOLOv8 with optional BYTETracker
-- 📊 Live FPS & object count overlay
+A professional-grade, modular object detection system built using YOLOv8, designed for real-time performance, zone-based alerts, and clean code structure.
 
 ---
 
-## 🖥️ Demo
+##  Features
 
-<p align="center">
-  <img src="demo.gif" width="80%">
-</p>
-
----
+-  Real-time object detection (Webcam or Video)
+-  Zone-based alerts for restricted areas
+-  Modular architecture (easy to extend & maintain)
+-  Save detections & log alerts to CSV
+-  Optimized for GPU (GTX 1650 Ti or better)
+-  YOLOv8 with optional BYTETracker
+-  Live FPS & object count overlay
 
 ## 📂 Project Structure
 
 ```
 prodetect/
 ├── models/                # Pretrained YOLOv8 model
-├── data/
-│   ├── detections/        # Saved frames with violations
-│   └── logs/              # CSV logs of detections
 ├── utils/
 │   ├── draw_utils.py      # Drawing boxes, labels
 │   ├── zone_utils.py      # Restricted zone detection
-│   └── logger.py          # CSV logger
 ├── detector.py            # YOLO detection + tracking
 ├── main.py                # Entry point
 ├── requirements.txt
 ├── README.md
-└── .gitignore
 ```
 
 ---
