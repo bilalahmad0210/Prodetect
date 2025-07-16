@@ -4,3 +4,13 @@ models/
 env/
 .vscode/
 *.pyc   
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.log
+data/logs/
+data/detections/
+models/*.pt
+.env
+.DS_Store
