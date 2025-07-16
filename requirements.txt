@@ -1,0 +1,6 @@
+opencv-python
+ultralytics
+numpy
+torch
+shapely
+playsound; platform_system == "Windows"
